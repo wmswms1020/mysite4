@@ -19,6 +19,18 @@ public class UserDao {
 	//ssdsdsssdsadassdasads
 	
 	//메소드 일반
+	
+	
+	//회원정보 1명가져오기
+	public UserVo getUserOne(int no) {
+		System.out.println("UserDao.getUser");
+		
+		UserVo authUser = sqlSession.selectOne("user.getUserOne",no);
+		return authUser;
+	}
+	
+	
+	
 	//회원정보 가져오기(로그인)
 	public UserVo getUser(UserVo userVo) {
 		

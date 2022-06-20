@@ -26,15 +26,15 @@
 					<!-- 로그인성공했ㅇㄹ떄 -->
 					<ul>
 						<li>소준호 님 안녕하세요^^</li>
-						<li><a href="" class="btn_s">로그아웃</a></li>
-						<li><a href="" class="btn_s">회원정보수정</a></li>
+						<li><a href="./loginForm" class="btn_s">로그아웃</a></li>
+						<li><a href="./modifyForm" class="btn_s">회원정보수정</a></li>
 					</ul>	
 				</c:when>
 				<c:otherwise>
 
 					<ul>
 						<li><a href="./loginForm" class="btn_s">로그인</a></li>
-						<li><a href="" class="btn_s">회원가입</a></li>
+						<li><a href="./joinForm" class="btn_s">회원가입</a></li>
 					</ul>
 
 

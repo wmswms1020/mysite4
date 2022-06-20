@@ -19,6 +19,26 @@ public class UserService {
 
 	// 메소드 일반
 	
+	
+	
+	//1명정보
+	public UserVo getUserOne(int no) {
+		System.out.println("UserService///getUser");
+		
+		UserVo authUser = userDao.getUserOne(no);
+		
+		return authUser;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	//로그인
 	
 	public UserVo login(UserVo userVo) {
