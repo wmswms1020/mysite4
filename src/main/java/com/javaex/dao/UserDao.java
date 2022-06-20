@@ -16,7 +16,7 @@ public class UserDao {
 	//생성자
 	
 	//메소드 gs
-	
+	//ssdsdsssdsadassdasads
 	
 	//메소드 일반
 	//회원정보 가져오기(로그인)
